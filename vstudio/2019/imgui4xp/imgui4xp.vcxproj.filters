@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{8429f65e-0f5f-4149-adc3-7036747777ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\imgui">
+      <UniqueIdentifier>{5d84bd8f-4320-473e-b3f4-660de8d3e136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\imgui\examples">
+      <UniqueIdentifier>{2b9837eb-f80e-426f-93f3-7aa2fcba640c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\stb">
+      <UniqueIdentifier>{92f77d37-6042-43a4-9f58-228ba49e88f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{84988399-e738-47cc-b4b7-6e1419bf9809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\ImgWindow">
+      <UniqueIdentifier>{b26f7f0d-cd3d-4ee9-9c29-24bb28cb0a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\GL">
+      <UniqueIdentifier>{a50d247c-f3aa-4a90-8eb8-8da313b04959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\KHR">
+      <UniqueIdentifier>{13866f62-848f-4054-ab1a-c79bb10c461d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\imgui\misc">
+      <UniqueIdentifier>{43d648ae-34b9-4cf8-bd82-89eeff843ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\imgui\misc\cpp">
+      <UniqueIdentifier>{f99f9e4d-2550-47ef-9095-4d13269ab8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\imgui\misc\freetype">
+      <UniqueIdentifier>{0be92f2a-be7a-48e5-81f1-00fdac57834b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\freetype">
+      <UniqueIdentifier>{a2d24ca3-4477-45a1-aa8e-3a7ba82bc68c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\imgui\imconfig.h">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imgui.h">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imgui_internal.h">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imstb_rectpack.h">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imstb_textedit.h">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imstb_truetype.h">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\examples\imgui_impl_opengl3.h">
+      <Filter>Source Files\libs\imgui\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui_starter_window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui4xp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\stb_image.h">
+      <Filter>Source Files\libs\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IconsFontAwesome5.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SystemGL.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgWindow\ImgFontAtlas.h">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgWindow\ImgFreeTypeFontAtlas.h">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgWindow\ImgWindow.h">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgWindow\WavFile.h">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ImgWindow\XOGLUtils.h">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GL\glext.h">
+      <Filter>Source Files\libs\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\KHR\khrplatform.h">
+      <Filter>Source Files\libs\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>Source Files\libs\imgui\misc\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GL\glew.h">
+      <Filter>Source Files\libs\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\misc\freetype\imgui_freetype.h">
+      <Filter>Source Files\libs\imgui\misc\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\freetype2\include\ft2build.h">
+      <Filter>Source Files\libs\freetype</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\imgui\imgui.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_draw.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\examples\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\libs\imgui\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui_starter_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui4xp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgWindow\ImgFontAtlas.cpp">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgWindow\ImgFreeTypeFontAtlas.cpp">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgWindow\ImgWindow.cpp">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgWindow\WavFile.cpp">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ImgWindow\XOGLUtils.cpp">
+      <Filter>Source Files\libs\ImgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Source Files\libs\imgui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GL\glew.c">
+      <Filter>Source Files\libs\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\misc\freetype\imgui_freetype.cpp">
+      <Filter>Source Files\libs\imgui\misc\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_demo.cpp">
+      <Filter>Source Files\libs\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\src\imgui\misc\cpp\README.txt">
+      <Filter>Source Files\libs\imgui\misc\cpp</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="..\..\..\src\imgui\misc\natvis\imgui.natvis" />
+  </ItemGroup>
+</Project>

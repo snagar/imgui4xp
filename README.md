@@ -45,6 +45,25 @@ to open the project's `src` folder and build the plugin based on its CMake confi
 
 Results will be in `src/build-win`.
 
+## Windows: Visual Studio Native
+Some modifications to the original CMAKE build tree was done:
+* A new Visual Studio folder was added (`vstudio`) where it holds the main `sln` file.
+* The `freetype2` folder was also added with few libraries compressed in`src\freetype2\libs\64` folder  for the build to succeed.
+* `glew` files where added to `src\GL`, we use it as our GL Loader.
+* Project was configured with the following ImGUI flags: `IMGUI_INCLUDE_IMCONFIG_H` and `IMGUI_IMPL_OPENGL_LOADER_GLEW`
+* Three profile files were added to the project: `imgui4xp.prop`, `imgui4xp_debug.prop` and `imgui4xp_release.prop`. Their main goal is to allow to define shared and specific configuration for your build. 
+
+** Pre and post Build Actions **
+Please do remember you will need to:
+* Unzip the "brotoli_and_freetype_libs_and_dlls.zip" in the `src\freetype2\libs\64\` folder first.
+* After the build, copy the Dlls to your plugin folder in X-Plane. Mainly: `brotlidec.dll` and `brotlicommon.dll`
+* At the end of the build we execute the following command from VS:
+
+> copy /Y $(OutDir)win.xpl C:\XP11\Resources\plugins\imgui4xp\64\
+
+The `XP11` represents a link to your `X-Plane` installation folder.
+You can ignore any error related to the copy command you can remove it or modify it for your needs from the project properties window.
+
 ## Mac OS: Xcode
 
 An Xcode project is provided as `imgui4xp.xcodeproj`.

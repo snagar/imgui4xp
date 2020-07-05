@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(ProjectDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>win</TargetName>
+    <TargetExt>.xpl</TargetExt>
+    <IncludePath>$(ProjectDir)..\..\..\src;$(ProjectDir)..\..\..\src\GL;$(ProjectDir)..\..\..\src\KHR;$(ProjectDir)..\..\..\src\imgui;$(ProjectDir)..\..\..\src\imgui\examples;$(ProjectDir)..\..\..\src\imgui\misc\cpp;$(ProjectDir)..\..\..\src\imgui\misc\freetype;$(ProjectDir)..\..\..\src\ImgWindow;$(ProjectDir)..\..\..\src\XPSDK302\CHeaders\XPLM;$(ProjectDir)..\..\..\src\XPSDK302\CHeaders\Widgets;$(ProjectDir)..\..\..\src\XPSDK302\CHeaders\Wrappers;$(ProjectDir)..\..\..\;$(ProjectDir)..\..\..\src\freetype2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\..\src\XPSDK302\Libraries\Win;$(ProjectDir)..\..\..\src\freetype2\libs\64;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(ProjectDir)..\..\..\src;$(ProjectDir)..\..\..\src\freetype2\include\freetype;$(SourcePath)</SourcePath>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>IBM=1;MX_IMGUI;XPLM200;XPLM210;XPLM300;XPLM301;XPLM302;IMGUI_INCLUDE_IMCONFIG_H;IMGUI_IMPL_OPENGL_LOADER_GLEW;XPLM_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>XPLM_64.lib;XPWidgets_64.lib;OpenGL32.lib;GLU32.lib;brotlidec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
